@@ -1,0 +1,66 @@
+       #cat{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 50px;
+            left: 100px;
+             animation: box 3s ease-in-out infinite;
+        }
+        @keyframes box{
+    0% {
+        transform: rotate(30deg) translateX(0);
+        background-color: blueviolet;
+    }
+    50% {
+        transform: rotate(60deg) translateX(50px);
+        background-color: mediumslateblue;
+    }
+    100% {
+        transform: rotate(30deg) translateX(0);
+        background-color: blueviolet;
+    }
+}
+        #dog{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+             top: 270px;
+            left: 100px;
+            animation: box 3s ease-in-out infinite;
+        }
+                @keyframes box{
+    0% {
+        transform: rotate(30deg) translateX(0);
+        background-color: blueviolet;
+    }
+    50% {
+        transform: rotate(60deg) translateX(50px);
+        background-color: mediumslateblue;
+    }
+    100% {
+        transform: rotate(30deg) translateX(0);
+        background-color: blueviolet;
+    }
+}
+        #pop{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 500px;
+            left: 100px;
+             animation: box 3s ease-in-out infinite;
+        }
+                        @keyframes box{
+    0% {
+        transform: rotate(30deg) translateX(0);
+        background-color: blueviolet;
+    }
+    50% {
+        transform: rotate(60deg) translateX(50px);
+        background-color: mediumslateblue;
+    }
+    100% {
+        transform: rotate(30deg) translateX(0);
+        background-color: blueviolet;
+    }
+}
